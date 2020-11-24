@@ -1,7 +1,7 @@
 const { Client, Collection, MessageEmbed, Presence } = require('discord.js');
 const client = new Client();
-const token = "NzczNDQ4NjgxMDQzMDAxMzU0.X6JYNw.ouxE0YO-s-gyuPmyOFkSnT6a4ps"
-const prefix = "!"
+const token = "Your Token"
+const prefix = "Your Prefix"
 
 client.on("ready", () => {
     client.user.setActivity('Falixnodes Bot Tutorial!', { type: 'WATCHING' })
